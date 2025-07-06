@@ -80,7 +80,7 @@ public class FrontController {
 	private String imageLink;
 	
 	private static final String BUCKET_NAME = "aestheticpixelart";
-	private static final String SERVICE_ACCOUNT_JSON = "etc/secrets/pixelapikey.json";
+	private static final String SERVICE_ACCOUNT_JSON = "/etc/secrets/pixelapikey.json";
 	private Storage storage;
 
 	public FrontController() throws Exception {
