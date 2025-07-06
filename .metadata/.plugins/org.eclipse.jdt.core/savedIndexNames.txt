@@ -76,7 +76,6 @@ INDEX VERSION 1.134+C:\Users\princ\OneDrive\Escritorio\Software Projects\Persona
 498328049.index
 1921736683.index
 3216474728.index
-2487035115.index
 741359132.index
 4210241900.index
 2432993422.index
