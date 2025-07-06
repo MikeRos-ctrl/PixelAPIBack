@@ -544,3 +544,6 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-07-06 13:56:10.930
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 14:46:34.047
+!MESSAGE Classpath changed for project: PixelApi
