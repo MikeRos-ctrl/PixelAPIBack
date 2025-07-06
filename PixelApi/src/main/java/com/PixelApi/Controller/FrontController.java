@@ -355,7 +355,7 @@ public class FrontController {
 
 			for (CategoryImage element : myImages) {
 				Map<String, Object> response = new HashMap<>();
-				response.put("Image", "src\\assets\\\\PixelArt\\" + element.getImageId());
+				response.put("Image", "assets/PixelArt/" + element.getImageId());
 				response.put("Name", service.findNameById(element.getImageId()));
 				response.put("ImageId", element.getImageId());
 				myList.add(response);
