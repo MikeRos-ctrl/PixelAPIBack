@@ -322,7 +322,7 @@ public class FrontController {
 			for (Image element : myList) {
 
 				Map<String, Object> response = new HashMap<>();				
-				response.put("Image", "src\\assets\\\\PixelArt\\" + element.getImageId());
+				response.put("Image", "public_html\\assets\\\\PixelArt\\" + element.getImageId());
 				response.put("Name", element.getName());
 				response.put("ImageId", element.getImageId());
 				myResponse.add(response);
