@@ -45,8 +45,14 @@ public class Api {
 	private Storage storage;
 
 	public Api() throws Exception {
+		
+		String jsonPath = System.getenv("GOOGLE_CREDENTIALS_PATH");
+		if (jsonPath == null) {
+			throw new IllegalStateException("Environment variable GOOGLE_CREDENTIALS_PATH not set");
+		}
+		
 		this.storage = StorageOptions.newBuilder()
-				.setCredentials(ServiceAccountCredentials.fromStream(new FileInputStream(SERVICE_ACCOUNT_JSON))).build()
+				.setCredentials(ServiceAccountCredentials.fromStream(new FileInputStream(jsonPath))).build()
 				.getService();
 	}
 
