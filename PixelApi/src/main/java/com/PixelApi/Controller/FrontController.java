@@ -290,7 +290,7 @@ public class FrontController {
 		try {
 			ImageCategoryDTO myImage = service.getRandomImageWithCategories();	
 			Map<String, Object> formatedDto = Map.of(
-					"Image", "src\\assets\\\\PixelArt\\" + myImage.getImageId(),
+					"Image", "assets/PixelArt/" + myImage.getImageId(),
 					"Name", myImage.getName(),
 					"ImageId", myImage.getImageId(),
 					"Categories", myImage.getCategoryNames(),
