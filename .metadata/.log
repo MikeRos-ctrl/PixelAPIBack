@@ -547,3 +547,9 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 14:46:34.047
 !MESSAGE Classpath changed for project: PixelApi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 14:54:04.189
+!MESSAGE Classpath changed for project: PixelApi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-06 14:58:51.852
+!MESSAGE Classpath changed for project: PixelApi

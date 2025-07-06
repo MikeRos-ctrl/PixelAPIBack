@@ -41,7 +41,7 @@ public class Api {
 	@Autowired HttpServletRequest request;
 	
 	private static final String BUCKET_NAME = "aestheticpixelart";
-	private static final String SERVICE_ACCOUNT_JSON = "src/main/resources/pixelapikey.json";
+	//private static final String SERVICE_ACCOUNT_JSON = "src/main/resources/pixelapikey.json";
 	private Storage storage;
 
 	public Api() throws Exception {

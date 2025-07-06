@@ -80,12 +80,18 @@ public class FrontController {
 	private String imageLink;
 	
 	private static final String BUCKET_NAME = "aestheticpixelart";
-	private static final String SERVICE_ACCOUNT_JSON = "src/main/resources/pixelapikey.json";
+	//private static final String SERVICE_ACCOUNT_JSON = "src/main/resources/pixelapikey.json";
 	private Storage storage;
 
 	public FrontController() throws Exception {
+
+		String jsonPath = System.getenv("GOOGLE_CREDENTIALS_PATH");
+		if (jsonPath == null) {
+			throw new IllegalStateException("Environment variable GOOGLE_CREDENTIALS_PATH not set");
+		}
+		
 		this.storage = StorageOptions.newBuilder()
-				.setCredentials(ServiceAccountCredentials.fromStream(new FileInputStream(SERVICE_ACCOUNT_JSON))).build()
+				.setCredentials(ServiceAccountCredentials.fromStream(new FileInputStream(jsonPath))).build()
 				.getService();
 	}
 
