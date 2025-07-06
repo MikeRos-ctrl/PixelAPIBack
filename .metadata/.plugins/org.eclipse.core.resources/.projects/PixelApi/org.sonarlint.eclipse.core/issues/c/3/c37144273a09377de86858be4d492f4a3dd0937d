@@ -1,0 +1,18 @@
+
+
+java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.8κή²Κϊ1b 077a18e6c4cf8f79090fdd11938eeaa7h
+
+java:S1128"aRemove this unused import 'org.springframework.security.provisioning.InMemoryUserDetailsManager'.8κή²Κϊ1b e4d646af9bae316a8c5306b53b45eafah
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 861b89948e0717a2ec8be1acee6b5ee2h
+”
+java:S1128"YRemove this unused import 'org.springframework.security.crypto.password.PasswordEncoder'.8κή²Κϊ1b 979a92b1cb4ff77c3e517495c66e2ddeh
+‘
+java:S1128"VRemove this unused import 'org.springframework.security.core.userdetails.UserDetails'.8κή²Κϊ1b 2e43daa1aeb80903a22da48ad1ded6edh
+
+java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.8κή²Κϊ1b 69e5bb9f8c391bd618fc3c0c40707dach
+™
+java:S1128"^Remove this unused import 'org.springframework.security.authentication.AuthenticationManager'.8ÿ›‚ϋ1b 54cbc43c23734efc1944c8fcb6517792h
+ΐ
+java:S1128"„Remove this unused import 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'.8ÿ›‚ϋ1b 70d97c2dcdee6b38c8d11c0afdd962e1h
+
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder'.8κή²Κϊ1b 99d1177ed9f94d2ac5a00afe249e4681h

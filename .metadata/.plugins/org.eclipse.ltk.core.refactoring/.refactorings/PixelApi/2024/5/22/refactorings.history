@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PixelApi/src/main/resources/IMG/edwd1.jpeg&apos; to &apos;cute-girl.jpeg&apos;" description="Rename resource &apos;edwd1.jpeg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/IMG/edwd1.jpeg" name="cute-girl.jpeg" stamp="1716687763677" updateReferences="true"/>
+</session>

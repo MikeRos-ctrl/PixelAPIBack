@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pixelapi-454401",
+  "private_key_id": "1d1f651010a2c03d7c7fa59f903c564cbb88d992",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1UOZU7Ktj0qSI\nM+FhYWHzucPFXomTwRRim2snxjsV3IqsC9H+/cm7AaoqqKZVEE9KXlniN4XUTf2V\nZ/wUZnildWVr9YWFznw0k7jWFpwKudhCrxXXBY7zDD6pUeMxfy57yM/BXp7QzGeK\nUIof2TeXwNOoIDzJEroH/I4Mrq/KEDId3S/TZ7kGmgcy7nWrFJuvrmuTABUBHmAl\nQqWbmcwer3ta7XSSqIzdkKDsAJHU+WsCQNd+F5X74VlpxKeZH0TcbAYvx3s2JfWl\nRnX7X+R/uLWaM83/bny/iIIB9W8yHFygfAncD7iYuTr20DhqQvo8Ff3vfg6G/L7F\nnxgZ781PAgMBAAECggEARbA7Zyaz1SEv9d2i4Y/RWyDqGuD0FeMfF6tOqzHoocVr\nUycT5mLa91JzegPqMkWbhCTxfR4EBQ6YyaT24UxlUIrnmW/7iutLF9YzM63q+cBm\nW3L5/PP49nedWezMWsjcL92F5HeeqPf3T9UW0ZjmYiBN+Y+ybUISWGF8o2k8zXd2\nSJWNhB+NACCbIqNjcvRCEH4F5+zzQR33bCoar+eS82SgdBAyH9tYV8yLCP6Ny2vW\nYpvzeNO72Mty2kiuw7XtPSPcKGECRPmGHpLQQlD8l11w9keQUSexkWNw87Pr7klH\nBgy3KYtnw8MQT3jBkaFfRT/GOUS2363bxIi0u68GMQKBgQD9opt5owl+6C6/tYAW\nnB1xqLS2SSJZm9+W6rfwcRWqgTyR/5SOGp592pZODWXx0jNjBhMM75AdYzi3CCcF\npC7v+QJqKMaeuBsDnLrzH4sOL1/MKpoA3QTb30QHspHEch02yYWOr4Vxo+i1wlTK\nQgaiCC34lgvEpGcWeTS5DBaVtwKBgQC3Aa0n2M/MlV9tJFsXRcSsYe9T2DkbcmeB\nHqN6ETJw9Y7Cm5o09WB5WO3LUWQXdXLELprm9HQX3juWTM5qVGzFGWNbKeG0YOWa\n4hvKB7Fwlk9qiAR8+GCtb9eq3kZJ+/91sDk12S+t9+0bzCBGxV55NNdEZrhcuT5Z\n7SQkH8TFKQKBgQDg31+LO7K6kq6ICCqVYTp1wAbgqvzKh/l3u4jzo7962XRTWU9j\nolQs7zVd5GEjQqOOwx721BtpAsSQ+qhmRwfaeWLbrmVS6ZYB4N6bmbbXD8eWo5rA\n8zRQoKWXUYoNqsMeBRPlyta8R3+WTsKQRHPPCwN/J8EtSjmf4jyNaBtKBwKBgCvQ\n1+9hZqc54EYWXUTeLG+FZzKw40NiCcwNVOCl+2i2Mj7/2FTzpuyG0TBLxWYkdZzo\n96dyQdVxHN0oeIdWvVAXewVZqrNwO6jwl+ywGNi29D6yYDi3kxYTYBSF8VhHYGuC\nDMCKxnKlmHx+TAAFw0/LyfqTiXKR247WSz/m50q5AoGBALOjlnrhGWsccEspLqts\nczeusng0/F53xWzTFKACR6lR1uvpzZul4pYssx+ybU3yV0gAkXDGHRiTE0+B2iM7\nUKLg5x3Bj0762OBIyP2WyLUV26Sw78YKuwt/YbkpVxifGZTWxt6VDFoYCpzrWpTI\n8iSzozg1rjHSvEZJyOcVkigD\n-----END PRIVATE KEY-----\n",
+  "client_email": "pixel-api-service-account@pixelapi-454401.iam.gserviceaccount.com",
+  "client_id": "106633068172324518778",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pixel-api-service-account%40pixelapi-454401.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

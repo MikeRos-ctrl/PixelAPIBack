@@ -1,0 +1,39 @@
+package com.PixelApi.Controller;
+
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
+
+@RestController
+@RequestMapping("/images")
+public class Images {
+
+	@GetMapping("/random")
+	public ResponseEntity<?> getImage() {
+
+		Map<String, Object> response = new HashMap<>();
+		HttpStatus statusResponse = HttpStatus.OK;
+
+		try {
+			Path imagePath = Paths.get("src/main/resources/IMG/cute-girl.jpeg");
+			byte[] imageBytes = Files.readAllBytes(imagePath);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+}

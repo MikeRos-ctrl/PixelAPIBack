@@ -1,0 +1,16 @@
+
+‹
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.8üİíØú1b c190d06a73f46e387f1c1d4e2ff9dd5dh
+f
+java:S1172)"+Remove this unused method parameter "user".8üİíØú1b ee11cbb19052e40b07aac0ca060c23eeh
+v	java:S125*"<This block of commented-out lines of code should be removed.8üİíØú1b f57b2f756b30ac4c94d6dcffe064ad7eh
+”
+java:S1128"YRemove this unused import 'org.springframework.security.crypto.password.PasswordEncoder'.8¨©ªˆû1b 979a92b1cb4ff77c3e517495c66e2ddeh
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8 ñßØú1b 0132ec8cee01c5dd244e1a60fe6448a1h
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 5890f2c9960d82b0d996f3d2be27a3deh
+v	java:S125%"<This block of commented-out lines of code should be removed.8üİíØú1b 2b9b1e4e29f82e83689af93df52400b1h
+›
+java:S1488+"`Immediately return this expression instead of assigning it to the temporary variable "myClient".8üİíØú1b 0024d4740f18f32d4140ed7328e654cdh
+‹
+java:S3655+"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.8üİíØú1b c598128242ce494202364be13d73e697h

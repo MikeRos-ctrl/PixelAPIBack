@@ -1,0 +1,56 @@
+# Application Properties
+spring.application.name=PixelApi
+server.port=8080
+server.servlet.context-path=/pixel
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+spring.jpa.show-sql=true
+logging.level.org.hibernate.SQL=info
+
+# MySQL Datasource Configuration
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.datasource.url=jdbc:mysql://localhost/pixel?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=root
+#spring.datasource.url=jdbc:mysql://srv939.hstgr.io:3306/u577609664_PixelApiWeb?useSSL=false&serverTimezone=UTC
+#spring.datasource.username=u577609664_pixelteam
+#spring.datasource.password=MikeAndLindita<3
+
+# Hikari
+spring.datasource.hikari.maximum-pool-size=5
+spring.datasource.hikari.minimum-idle=5              
+spring.datasource.hikari.idle-timeout=30000         
+spring.datasource.hikari.connection-timeout=30000    
+spring.datasource.hikari.max-lifetime=1800000     
+spring.datasource.hikari.pool-name=MyCustomPoolName    
+spring.datasource.hikari.leak-detection-threshold=2000
+#logging.level.com.zaxxer.hikari.HikariConfig=DEBUG
+#logging.level.com.zaxxer.hikari=TRACE
+
+# File upload limits
+spring.servlet.multipart.max-file-size=10MB
+spring.servlet.multipart.max-request-size=10MB
+
+# Security and Logging
+logging.level.org.springframework.security.web.*=info
+
+#Strip keys
+stripe.public=pk_test_51Q1zOEFPhxiQYA140A2eGK8gGL66iEfViDDqJIubGGGWrXeoWOHpPPOAXB8QigbnZ7Y24fQjSRuMVwWKwOni9lsO00j1hnkAd0
+stripe.secret=sk_test_51Q1zOEFPhxiQYA14uOzEc2TSF1NAvvggrFAex14QHUj6V6OJRlSDI9cFAdWbsLLZZUgTUIqI0CZlgotO4sxcCGPy00rF6RBw8I
+stripe.premium=price_1Q20xgFPhxiQYA14Cqvfu7GL
+stripe.premium_plus=price_1Q45hZFPhxiQYA14DJcv8rpC
+
+#Hostinger config
+image.link=https://thepixelapi.com/images/PixelArt/
+
+#spring.mail.host=smtp.hostinger.com
+#spring.mail.port=465
+#spring.mail.username=pixelteam@thepixelapi.com
+#spring.mail.password=MikeAndDahyun<3
+#spring.mail.properties.mail.smtp.auth=true
+#spring.mail.properties.mail.smtp.starttls.enable=true
+#spring.mail.from=pixelteam@thepixelapi.com

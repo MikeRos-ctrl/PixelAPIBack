@@ -1,0 +1,13 @@
+1715562002599	Rename type 'Client'
+1715574194589	Rename package 'com.PixelApi.Util'
+1715574218055	Rename type 'ClientControllerUtility'
+1715579249964	Rename package 'com.PixelApi.Processor'
+1715579263664	Rename type 'ClientProccesor'
+1715650502466	Rename package 'com.PixelApi.Validator'
+1715650524506	Rename type 'ClientValidator'
+1715664000487	Rename compilation unit 'ClientFilter.java'
+1715737494138	Delete element
+1715737499037	Delete element
+1715751162185	Delete element
+1715824870412	Delete element
+1715826319400	Encapsulate field 'active'

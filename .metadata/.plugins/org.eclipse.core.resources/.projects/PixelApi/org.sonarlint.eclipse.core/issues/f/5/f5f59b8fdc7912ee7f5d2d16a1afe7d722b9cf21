@@ -1,0 +1,6 @@
+
+‹
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.8¥ æı1b 22abadbe086f64d10c9bb987860f0b50h
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 5890f2c9960d82b0d996f3d2be27a3deh
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8·Û‹æı1b 0132ec8cee01c5dd244e1a60fe6448a1h
