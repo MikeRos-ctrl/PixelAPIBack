@@ -80,7 +80,7 @@ public class Api {
 			Map<String, Object> response = new HashMap<>();
 
 			response.put("Message", "Inner Error");
-			response.put("Error", "Muerte y Destruccion xd");
+			response.put("Error", e.getMessage());
 			return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
